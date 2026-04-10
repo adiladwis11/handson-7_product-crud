@@ -2,10 +2,8 @@ package com.example.productcrud.controller;
 
 import com.example.productcrud.model.Category;
 import com.example.productcrud.model.Product;
-
-import java.time.LocalDate;
-
 import com.example.productcrud.service.ProductService;
+import java.time.LocalDate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

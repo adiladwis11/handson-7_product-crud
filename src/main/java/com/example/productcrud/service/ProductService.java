@@ -2,9 +2,10 @@ package com.example.productcrud.service;
 
 import com.example.productcrud.model.Product;
 import com.example.productcrud.Repository.ProductRepository;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.Optional;
-import org.springframework.stereotype.Service;
 
 @Service
 public class ProductService {
